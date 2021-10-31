@@ -43,6 +43,7 @@ function initSprites(img) {
 	s_text = {
 		FlappyBird: new Sprite(img, 59, 114, 96, 22),
 		GameOver:   new Sprite(img, 59, 136, 94, 19),
+		setData:   new Sprite(img, 79, 165, 97, 82),
 		GetReady:   new Sprite(img, 59, 155, 87, 22)
 	}
 	s_buttons = {
