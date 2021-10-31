@@ -73,7 +73,11 @@ function initSprites(img) {
         if(offset){
             x += step*(offset - num.length);
         }
-        
+        function newMasage(pra) {
+		console.log(pra);
+	}
+	newMasage("Hay");
+		
 		
 		for (var i = 0, len = num.length; i < len; i++) {
 			var n = parseInt(num[i]);
